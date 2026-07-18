@@ -1,0 +1,29 @@
+{
+  "name": "football-match-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for football match platform - provides match, team, standings and player data",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "football-match-mcp": "./dist/server.js"
+  },
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "tsx --test test/*.test.mts",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=24.14.1"
+  }
+}
