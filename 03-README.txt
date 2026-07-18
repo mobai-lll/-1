@@ -4,7 +4,7 @@
 
 项目名称：Web开发课程大作业 - 赛事信息服务平台
 
-仓库地址：https://github.com/sunshinezxf/web-development-course
+仓库地址：https://github.com/mobai-lll/-1
 
 技术栈：
 - 前端：Next.js 16 + React 18 + TypeScript + TailwindCSS 4
